@@ -1,0 +1,26 @@
+---
+# vars file for deploy-sb-ext
+# For script
+template_compose_file_name: compose-file.j2
+template_env_file_name: env.j2
+compose_file_name: "{{ service_did_l3_service }}.yml"
+env_file_name: "{{ service_did_l3_service }}.env"
+compose_file_deployment_location: "{{ compose_files_dir }}/{{ compose_file_name }}"
+env_file_deployment_location: "{{ env_files_dir }}/{{ env_file_name }}"
+user_friendly_name: did-l3
+
+
+docker_port: "{{ service_did_l3_docker_port }}"
+host_port: "{{ service_did_l3_host_port }}"
+image_name: "{{ image_did_l3_service }}"
+tag: "{{ tags_did_l3_service }}"
+replicas: "{{ service_replicas_did_l3_service }}"
+network_alias_name: "{{ network_alias_did_l3_service }}"
+docker_service_stack_name: ulp
+docker_service_name: "{{ service_did_l3_service }}"
+force_reload: "{{ force_reload_did_l3_service }}"
+host_logs_location: "{{ did_l3_logs }}"
+docker_logs_location: /logs
+
+# Your credentials on the vault
+credentials: "{{ lookup('hashi_vault', 'secret={{ did_l3_secret_path }}', url=VAULT_ADDR, token=VAULT_TOKEN) }}"

@@ -1,0 +1,16 @@
+---
+# Update variables for each service here
+
+
+service_did_l3_service: did_l3_service
+service_did_l3_host_port: 3000
+service_did_l3_docker_port: 3332
+network_alias_did_l3_service: did_l3_service
+image_did_l3_service: did-l3
+did_l3_logs: /mydata/logs/did_l3
+force_reload_did_l3_service: true
+did_l3_secret_path: kv/data/ulp/did-l3
+service_replicas_did_l3_service: 1
+
+VAULT_TOKEN: #VAULT TOKEN`
+VAULT_ADDR: #VAULT ADDR
