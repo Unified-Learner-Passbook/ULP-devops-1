@@ -12,5 +12,26 @@ force_reload_did_l3_service: true
 did_l3_secret_path: kv/data/ulp/did-l3
 service_replicas_did_l3_service: 1
 
+
+service_cred_schema_ms_service: cred_schema_ms_service
+service_cred_schema_ms_host_port: 3001
+service_cred_schema_ms_docker_port: 3000
+network_alias_cred_schema_ms_service: cred_schema_ms_service
+image_cred_schema_ms_service: cred-schema-ms
+cred_schema_ms_logs: /mydata/logs/cred_schema_ms
+force_reload_cred_schema_ms_service: true
+cred_schema_ms_secret_path: kv/data/ulp/cred-schema-ms
+service_replicas_cred_schema_ms_service: 1
+
+service_credential_ms_service: credential_ms_service
+service_credential_ms_host_port: 3002
+service_credential_ms_docker_port: 3333
+network_alias_credential_ms_service: credential_ms_service
+image_credential_ms_service: credential-ms
+credential_ms_logs: /mydata/logs/credential_ms
+force_reload_credential_ms_service: true
+credential_ms_secret_path: kv/data/ulp/credential-ms
+service_replicas_credential_ms_service: 1
+
 VAULT_TOKEN: #VAULT TOKEN`
 VAULT_ADDR: #VAULT ADDR
