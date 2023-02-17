@@ -8,11 +8,11 @@
         <jenkins.scm.api.metadata.ObjectMetadataAction plugin="scm-api@631.v9143df5b_e4a_a"/>
         <org.jenkinsci.plugins.github__branch__source.GitHubLink plugin="github-branch-source@1701.v00cc8184df93">
           <iconClassName>icon-github-repo</iconClassName>
-          <url>https://github.com/Unified-Learner-Passbook/Identity</url>
+          <url>https://github.com/Unified-Learner-Passbook/Middleware</url>
         </org.jenkinsci.plugins.github__branch__source.GitHubLink>
         <org.jenkinsci.plugins.github__branch__source.GitHubDefaultBranch plugin="github-branch-source@1701.v00cc8184df93">
           <repoOwner>Unified-Learner-Passbook</repoOwner>
-          <repository>DID-L3-MS</repository>
+          <repository>Middleware</repository>
           <defaultBranch>main</defaultBranch>
         </org.jenkinsci.plugins.github__branch__source.GitHubDefaultBranch>
       </list>

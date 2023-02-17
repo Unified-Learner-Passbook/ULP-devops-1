@@ -1,5 +1,5 @@
 <?xml version='1.1' encoding='UTF-8'?>
-<com.cloudbees.hudson.plugins.folder.Folder plugin="cloudbees-folder@6.758.vfd75d09eea_a_1">
+<com.cloudbees.hudson.plugins.folder.Folder plugin="cloudbees-folder@6.800.v71307ca_b_986b">
   <actions/>
   <description></description>
   <properties>
@@ -10,6 +10,22 @@
         <timeout>60</timeout>
       </configuration>
     </com.datapipe.jenkins.vault.configuration.FolderVaultConfiguration>
+    <com.cloudbees.hudson.plugins.folder.properties.FolderCredentialsProvider_-FolderCredentialsProperty>
+      <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash">
+        <entry>
+          <com.cloudbees.plugins.credentials.domains.Domain plugin="credentials@1214.v1de940103927">
+            <specifications/>
+          </com.cloudbees.plugins.credentials.domains.Domain>
+          <java.util.concurrent.CopyOnWriteArrayList>
+            <org.jenkinsci.plugins.plaincredentials.impl.StringCredentialsImpl plugin="plain-credentials@143.v1b_df8b_d3b_e48">
+              <id>docker_server</id>
+              <description>docker_server</description>
+              <secret>{AQAAABAAAAAgTq/kf4iUOvnaOv4qjzbuGeqezXOrjOTjbcavqdG0tG6Xa2HTTJb9oI1H0n1d4s/U}</secret>
+            </org.jenkinsci.plugins.plaincredentials.impl.StringCredentialsImpl>
+          </java.util.concurrent.CopyOnWriteArrayList>
+        </entry>
+      </domainCredentialsMap>
+    </com.cloudbees.hudson.plugins.folder.properties.FolderCredentialsProvider_-FolderCredentialsProperty>
   </properties>
   <folderViews class="com.cloudbees.hudson.plugins.folder.views.DefaultFolderViewHolder">
     <views>
