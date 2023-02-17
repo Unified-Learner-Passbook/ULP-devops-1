@@ -33,6 +33,16 @@ force_reload_credential_ms_service: true
 credential_ms_secret_path: kv/data/ulp/credential-ms
 service_replicas_credential_ms_service: 1
 
+service_middleware_service: middleware_service
+service_middleware_host_port: 3003
+service_middleware_docker_port: 3000
+network_alias_middleware_service: middleware_service
+image_middleware_service: samagragovernance/middleware
+middleware_logs: /mydata/logs/middleware
+force_reload_middleware_service: true
+middleware_secret_path: kv/data/ulp/middleware
+service_replicas_middleware_service: 1
+
 VAULT_TOKEN: #VAULT TOKEN`
 VAULT_ADDR: #VAULT ADDR
 
