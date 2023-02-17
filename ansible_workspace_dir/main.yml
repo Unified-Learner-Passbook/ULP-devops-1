@@ -11,6 +11,8 @@
     - role: deploy-cred-schema-ms
       tags: [deploy-cred-schema-ms]
     - role: deploy-did-l3
+      tags: [deploy-middleware]
+    - role: deploy-middleware
       tags: [deploy-did-l3]
     - role: stack-proxy
       tags: [stack-proxy]
