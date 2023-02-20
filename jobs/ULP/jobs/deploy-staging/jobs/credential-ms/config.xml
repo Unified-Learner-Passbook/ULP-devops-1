@@ -12,10 +12,11 @@
   <triggers/>
   <concurrentBuild>false</concurrentBuild>
   <builders>
-    <hudson.plugins.copyartifact.CopyArtifact plugin="copyartifact@1.47">
-      <project>ULP/build/credential-ms/main</project>
+    <hudson.plugins.copyartifact.CopyArtifact plugin="copyartifact@686.v6fd37018d7c2">
+      <project>ULP/build/credential-ms/PR-17</project>
       <filter>commit_id.txt</filter>
       <target></target>
+      <includeBuildNumberInTargetPath>false</includeBuildNumberInTargetPath>
       <excludes></excludes>
       <selector class="hudson.plugins.copyartifact.StatusBuildSelector"/>
       <doNotFingerprintArtifacts>false</doNotFingerprintArtifacts>

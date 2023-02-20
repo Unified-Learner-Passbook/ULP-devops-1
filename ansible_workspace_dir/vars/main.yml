@@ -43,7 +43,6 @@ force_reload_middleware_service: true
 middleware_secret_path: kv/data/ulp/middleware
 service_replicas_middleware_service: 1
 
-VAULT_TOKEN: #VAULT TOKEN`
-VAULT_ADDR: #VAULT ADDR
+
 
 

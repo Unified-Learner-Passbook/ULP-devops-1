@@ -20,7 +20,7 @@
             <org.jenkinsci.plugins.plaincredentials.impl.StringCredentialsImpl plugin="plain-credentials@143.v1b_df8b_d3b_e48">
               <id>docker_server</id>
               <description>docker_server</description>
-              <secret>{AQAAABAAAAAgTq/kf4iUOvnaOv4qjzbuGeqezXOrjOTjbcavqdG0tG6Xa2HTTJb9oI1H0n1d4s/U}</secret>
+              <secret>{AQAAABAAAAAQdcAzUJ+FrBEWQSb3M7NoXRft+iO6o66SlHgwIHsR8OE=}</secret>
             </org.jenkinsci.plugins.plaincredentials.impl.StringCredentialsImpl>
           </java.util.concurrent.CopyOnWriteArrayList>
         </entry>
